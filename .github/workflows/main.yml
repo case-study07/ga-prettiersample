@@ -25,11 +25,11 @@ jobs:
           ref: ${{ github.head_ref }}
 
       - name: Install packages
-        run: npm install
+        run: yarn install
       
       - name: Prettier
-        run: npm run format:fix
+        run: yarn format:fix
 
-      - uses: stefanzweifel/git-auto-commit-action@v3.0.0
+      - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Apply Prettier Change
