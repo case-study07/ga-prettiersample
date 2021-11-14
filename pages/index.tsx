@@ -8,6 +8,28 @@ const Home: NextPage = () => {
     console.log('aaa')
   }
 
+  const bbb = () => {
+    console.log('kdfjsklafjsdlf;aj')
+  }
+  const ccc = () => {
+    console.log('kdfjsklafjsdlf;aj')
+  }
+  const sss = () => {
+    console.log('kdfjsklafjsdlf;aj')
+  }
+  const sda = () => {
+    console.log('kdfjsklafjsdlf;aj')
+  }
+  const sdad = () => {
+    console.log('kdfjsklafjsdlf;aj')
+  }
+  const sdada = () => {
+    console.log('kdfjsklafjsdlf;aj')
+  }
+  const bsdasbb = () => {
+    console.log('kdfjsklafjsdlf;aj')
+  }
+
   return (
     <div className={styles.container}>
       <Head>
