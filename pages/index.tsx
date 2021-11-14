@@ -4,8 +4,9 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
-
-  const aaa = () => { console.log('aaa') }
+  const aaa = () => {
+    console.log('aaa')
+  }
 
   return (
     <div className={styles.container}>
