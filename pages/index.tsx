@@ -12,7 +12,9 @@ const Home: NextPage = () => {
     console.log('kdfjsklafjsdlf;aj')
   }
 
-  const dsfjaldkjfsa = () => { console.log('fdsfsd') }
+  const dsfjaldkjfsa = () => {
+    console.log('fdsfsd')
+  }
 
   return (
     <div className={styles.container}>
