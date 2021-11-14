@@ -24,8 +24,6 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
-      
-
       - name: Install packages
         run: yarn install
       
