@@ -11,23 +11,9 @@ const Home: NextPage = () => {
   const bbb = () => {
     console.log('kdfjsklafjsdlf;aj')
   }
-  const ccc = () => {
-    console.log('kdfjsklafjsdlf;aj')
-  }
-  const sss = () => {
-    console.log('kdfjsklafjsdlf;aj')
-  }
-  const sda = () => {
-    console.log('kdfjsklafjsdlf;aj')
-  }
-  const sdad = () => {
-    console.log('kdfjsklafjsdlf;aj')
-  }
-  const sdada = () => {
-    console.log('kdfjsklafjsdlf;aj')
-  }
-  const bsdasbb = () => {
-    console.log('kdfjsklafjsdlf;aj')
+
+  const dsfjaldkjfsa = () => {
+    console.log('fdsfsd')
   }
 
   return (
