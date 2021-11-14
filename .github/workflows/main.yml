@@ -30,7 +30,6 @@ jobs:
       - name: Prettier
         run: npm run format:fix
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v3.0.0
         with:
           commit_message: Apply Prettier Change
-          ref: ${{ github.head_ref }}
