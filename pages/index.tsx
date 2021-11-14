@@ -4,7 +4,6 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
-
   const aaa = () => { console.log('aaa') }
   const bbb = () => { console.log('aaa') }
 
