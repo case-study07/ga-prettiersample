@@ -5,9 +5,7 @@ name: CI
 # Controls when the workflow will run
 on:
   pull_request:
-    branches: [main]
-  push:
-    branches: [main]
+    branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -27,10 +25,10 @@ jobs:
           ref: ${{ github.head_ref }}
 
       - name: Install packages
-        run: yarn install
-
+        run: npm install
+      
       - name: Prettier
-        run: yarn format:fix
+        run: npm run format:fix
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
