@@ -4,7 +4,9 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
-  const adsfsa = () => {console.log('dsfaklds')}
+  const adsfsa = () => {
+    console.log('dsfaklds')
+  }
   const aaa = () => {
     console.log('aaa')
   }
